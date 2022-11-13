@@ -1,0 +1,33 @@
+local binds = "r = invisible | f = visible"
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/oppswisser/zzotac/main/noti3'))()
+
+
+wait(0.2)
+ game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(key)
+ if key == "r" then
+     loadstring(game:HttpGet('https://raw.githubusercontent.com/oppswisser/zzotac/main/finv'))()
+ end
+end)
+
+ game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(key)
+ if key == "f" then
+     loadstring(game:HttpGet('https://raw.githubusercontent.com/oppswisser/zzotac/main/vap'))()
+ end
+end)
+
+game.Players.LocalPlayer.Chatted:Connect(function(sa)
+    if sa == ";binds" then
+        print(binds)
+        wait(0.1)
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/oppswisser/zzotac/main/noti2'))()
+end
+end)
+
+game.Players.LocalPlayer.Chatted:Connect(function(fa)
+    if fa == ";face" then
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/oppswisser/zzotac/main/fsa'))()
+end
+end)
+
+
