@@ -1,0 +1,8 @@
+while true do
+    wait()
+    local args = {
+    [1] = "Vanish Strike"
+}
+
+game:GetService("ReplicatedStorage").Events.giveskill:FireServer(unpack(args))
+end
