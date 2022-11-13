@@ -1,0 +1,6 @@
+game.StarterGui:SetCore("SendNotification", {
+Title = ";face to remove face."; 
+Text = ";face to remove face."; 
+Icon = "rbxassetid://57254792"; 
+Duration = 5; 
+})
