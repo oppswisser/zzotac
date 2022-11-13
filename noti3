@@ -1,7 +1,7 @@
 game.StarterGui:SetCore("SendNotification", {
 Title = "Made by zzotac"; 
 Text = ";binds to see the binds."; 
-Icon = "rbxassetid://57254792"; 
+Icon = "rbxassetid://5175031737"; 
 Duration = 5; 
 })
 wait(0.5)
@@ -9,7 +9,7 @@ wait(0.5)
 game.StarterGui:SetCore("SendNotification", {
 Title = ";face to remove face."; 
 Text = ";face to remove face."; 
-Icon = "rbxassetid://57254792"; 
+Icon = "rbxassetid://5175031737"; 
 Duration = 5; 
 })
 
