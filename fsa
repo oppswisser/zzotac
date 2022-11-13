@@ -1,0 +1,5 @@
+for i,f in pairs(game.Workspace[game.Players.LocalPlayer.Name].Head:GetChildren()) do
+   if f:IsA("Decal") and f.Name == "face" then
+       f.Parent = nil
+   end
+   end
