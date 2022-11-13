@@ -1,6 +1,10 @@
-loadstring(game:HttpGet('https://raw.githubusercontent.com/oppswisser/zzotac/main/van'))()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/oppswisser/zzotac/main/noti1'))()
-
+game.StarterGui:SetCore("SendNotification", {
+Title = "Made by zzotac"; 
+Text = ";binds to see the binds."; 
+Icon = "rbxassetid://57254792"; 
+Duration = 5; 
+})
+wait(0.5)
 
 game.StarterGui:SetCore("SendNotification", {
 Title = ";face to remove face."; 
@@ -8,3 +12,13 @@ Text = ";face to remove face.";
 Icon = "rbxassetid://57254792"; 
 Duration = 5; 
 })
+
+
+while true do
+    wait()
+    local args = {
+    [1] = "Vanish Strike"
+}
+
+game:GetService("ReplicatedStorage").Events.giveskill:FireServer(unpack(args))
+end
