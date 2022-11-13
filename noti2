@@ -1,6 +1,6 @@
 game.StarterGui:SetCore("SendNotification", {
 Title = "Made by zzotac"; 
 Text = "Binds printed, press F9."; 
-Icon = "rbxassetid://57254792"; 
+Icon = "rbxassetid://5175031737"; 
 Duration = 5; 
 })
