@@ -1,0 +1,12 @@
+local args = {
+		[1] = "Vanish Strike"
+	}
+
+	game:GetService("ReplicatedStorage").Events.giveskill:FireServer(unpack(args))
+  local args = {
+		[1] = "Kamehameha"
+	}
+
+	game:GetService("ReplicatedStorage").Events.giveskill:FireServer(unpack(args))
+  
+  
