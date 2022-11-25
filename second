@@ -1,0 +1,5 @@
+spawn(function()
+while true do task.wait()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players.target.Character.HumanoidRootPart.CFrame
+end
+end)
