@@ -8,5 +8,15 @@ local args = {
 	}
 
 	game:GetService("ReplicatedStorage").Events.giveskill:FireServer(unpack(args))
+	wait(0.5)
+	local args = {
+		[1] = "VanishStrike",
+		[2] = 0,
+		[3] = 80,
+		[4] = game:GetService("Players").LocalPlayer.Backpack["Vanish Strike"],
+		[5] = "White"
+	}
+
+	game:GetService("ReplicatedStorage").Events.heavy:FireServer(unpack(args))
   
   
